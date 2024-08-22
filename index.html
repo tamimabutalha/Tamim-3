@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamim-Assignment-03</title>
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Daisy ui CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .font-poppins{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                background: 'rgba(255, 255, 255, 1)',
+                'btn-color': 'rgba(171, 239, 95, 1)',
+                'btn-banner': 'rgba(171, 239, 95, 0.5)',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="background">
+    <!-- header section -->
+    <header class="md:container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  
+                  <a class="btn btn-ghost text-3xl font-bold"><i class="fa-solid fa-arrow-right bg-btn-color  text-black -rotate-45 text-base h-6  w-6  rounded-3xl"></i> Rinterio </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="hover:font-bold">Home</a></li>
+                    <li><a class="hover:font-bold">Services</a></li>
+                    <li><a class="hover:font-bold">Blogs</a></li>
+                    <li><a class="hover:font-bold">Contact Us</a></li>
+                  </ul>
+                </div>
+                
+                <div class="navbar-end">
+                    <div class=" flex items-center gap-7">
+                        <button><i class="fa-solid fa-magnifying-glass bg-slate-100 h-9  w-9 pt-2.5 rounded-3xl"></i></button>
+                        <button><i class="fa-solid fa-cart-shopping mr-7  bg-slate-100 h-9  w-9 pt-2.5 rounded-3xl"></i></button>
+                        
+                    </div>
+                  <a class="btn bg-btn-color rounded-3xl text-xl font-bold">Book Consult <i class="fa-solid fa-arrow-right bg-gray-900 text-white -rotate-45 h-6 text-base w-6  rounded-3xl"></i></a>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-4">
+                    <li><a class="hover:font-bold">Home</a></li>
+                    <li><a class="hover:font-bold">Services</a></li>
+                    <li><a class="hover:font-bold">Blogs</a></li>
+                    <li><a class="hover:font-bold">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <!-- Banner Section -->
+         <section>
+            <div class="hero  min-h-screen  ">
+                <div class="hero-content text-center grid grid-rows-1 justify-center items-center ">
+                    <div class=" flex justify-center items-center">
+                        <img src="assets/banner.png" alt="">
+                    </div>
+                  <div class="max-w- ">
+                    <h1 class="text-6xl font-bold w-full ">A barn house of this design has a <br>striking appearance</h1>
+                    <p class="py-6">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+                    </p>
+                    <a class="btn bg-btn-banner text- font-bold rounded-3xl">View Details <i class="fa-solid fa-arrow-right bg-btn-color text-black -rotate-45 h-6  w-6 pt-1.5 rounded-3xl"></i></a>
+                  </div>
+                </div>
+              </div>
+         </section>
+    </header>
+    <!-- main Section -->
+    <main class="md:container mx-auto">
+
+    </main>
+    <!-- footer Section -->
+    <footer></footer>
+</body>
+</html>
